@@ -65,10 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 960px;
+	width: 876px;
 	margin: auto;
 }
 
+
+/*The header and sub header banner area*/
 header {
 	padding: 0 0 50px 0;
 	border-bottom: 1px solid black;
@@ -80,20 +82,31 @@ nav {
 
 nav a {
 	color: silver;
-	margin: 45px 35px;
+	margin: 35px 20px;
+	padding: 10px;
+	box-sizing: border-box;
 	display: inline-block;
 	text-decoration: none;
 	font-size: 14px;
+	text-shadow: 2px 1px white;
+	border: 1px solid white;
+}
+
+nav a:hover {
+	background: #e1eced;
+	color: #18CAE6;
+	text-shadow: 2px 1px white;
+	border: 1px solid #18CAE6;
 }
 
 .logo {
 	float: right;
-	margin: 30px 10px;
+	margin: 30px 0px;
 }
 
 .subheader {
 	display: inline-block;
-	width: 100%
+	width: 100%;
 }
 
 .subheader div {
@@ -116,8 +129,52 @@ nav a {
 
 }
 
+.subheader div p:hover {
+	background: #e1eced;
+	color: #18CAE6;
+	text-shadow: 2px 1px white;
+	border: 1px solid #18CAE6;
+}
+
 .subheader img {
 	float: right;
-	display: flex;
+}
 
+
+/*main content*/
+.area1 div {
+	display: inline-block;
+	width: 436px;
+	box-sizing: border-box;
+	margin: 30px 0px;
+}
+
+.area2 div {
+	display: inline-block;
+	width: 288px;
+	box-sizing: border-box;
+	margin: 30px 0px;
+}
+
+
+/*Footer*/
+footer {
+	margin: 20px 0px;
+	padding: 30px 0px;
+	border-top: 1px solid black;
+}
+
+footer address {
+	width: 175px;
+}
+
+footer address span {
+	padding: 1em 0 0 0;
+	display: inline-block;
+}
+
+footer .copyright {
+	/*text-align: center; cant use box modle only*/
+	margin: 2em auto;
+	width: 200px;
 }
