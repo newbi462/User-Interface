@@ -94,6 +94,14 @@ nav a {
 	width: 50%;
 	display: inline-block;
 	margin: 30px 10px;
+	text-align: center;
+	font-size: 72px;
+}
+
+.subheader div span {
+	font-size: 18px;
+	border: 1px solid black;
+	padding: 4px 25px;
 }
 
 .subheader img {
