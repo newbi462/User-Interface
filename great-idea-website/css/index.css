@@ -195,8 +195,11 @@ nav a:hover {
 .forcebackground section p {
 	color: white;
 	text-shadow: 1px 1px #18CAE6;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 5px 8px 1em 8px;
+	width: 352px;
+	background: black;
+	opacity: 0.9;
 }
 
 
